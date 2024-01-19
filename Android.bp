@@ -1,0 +1,10 @@
+android_app_import {
+    visibility: ["//visibility:public"],
+    name: "F-Droid",
+    apk: "F-Droid.apk",
+    presigned: true,
+    product_specific: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}
